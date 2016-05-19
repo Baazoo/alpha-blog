@@ -40,10 +40,6 @@ end
 
 group :development do
   
-  #Use Postgress db in production environment ATA
-  gem 'pg'
-  #ATA
-  gem 'rails_12factor'
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
 
@@ -51,3 +47,12 @@ group :development do
   gem 'spring'
 end
 
+
+group :production do
+  
+  #Use Postgress db in production environment ATA
+  gem 'pg'
+  #ATA
+  gem 'rails_12factor'
+  
+end

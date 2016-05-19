@@ -22,6 +22,4 @@ test:
 
 production:
   <<: *default
-  adapter: postgresql
-  database: alpha-blog_production
-  #database: db/production.sqlite3
+  database: db/production.sqlite3
