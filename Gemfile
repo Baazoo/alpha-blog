@@ -49,7 +49,6 @@ end
 
 
 group :production do
-  
   #Use Postgress db in production environment ATA
   gem 'pg'
   #ATA
